@@ -75,7 +75,7 @@ def start():
     pid_file = '/home/bovdur/DocuSketch/memota/eg_daemon.pid'
     log_file = '/home/bovdur/DocuSketch/memota/eg_daemon.log'
     start_daemon(pid_file, log_file)
-
+#test
 
 @cli.command()
 def stop():
