@@ -21,7 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['psutil==5.9.4', 'python-daemon==2.3.2', 'click==8.1.3', 'lockfile==0.12.2'],
+    install_requires=['psutil==5.9.4', 'python-daemon==2.3.2', 'click==8.1.3', 'lockfile==0.12.2', 'ram'],
     keywords=['python', 'ram', 'monitoring'],
     classifiers=[
         "Development Status :: 1 - Planning",
